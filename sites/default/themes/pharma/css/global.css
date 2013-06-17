@@ -5,6 +5,10 @@ body {
   background: url(../img/bg_pattern.png) repeat;
 }
 
+a:link, a:visited, a:hover {
+  text-decoration: none;
+}
+
 a {
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -23,12 +27,13 @@ a:hover {
 
 h1,
 h2 {
-  font-family: Cuprum;
-  font-weight: 700;
+  font-family: "BebasNeueRegular";
+  font-weight: 100;
 }
 
 h1.site-name,
 h2.site-name {
+  font-size: 3em;
   font-weight: 100;
   text-transform: uppercase;
 }
@@ -41,4 +46,40 @@ h2.site-name a {
 h1.site-name a:hover,
 h2.site-name a:hover {
   color: #222222;
+}
+
+#region-branding {
+  margin: 20px 0;
+}
+
+/* Main Menu */
+#zone-menu-wrapper {
+  background: #009900;
+  margin-bottom: 20px;
+}
+
+#zone-menu ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+#zone-menu ul.menu li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 40px;
+  line-height: 55px;
+  list-style: none;
+  font-family: "BebasNeueRegular";
+  font-size: 2em;
+  text-shadow: 1px 1px 2px #222;
+}
+
+#zone-menu ul.menu li a {
+  color: white;
+}
+
+#zone-menu ul.menu li a:hover {
+  color: black;
+  text-shadow: none;
 }
