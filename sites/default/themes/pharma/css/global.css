@@ -21,13 +21,14 @@ a:hover {
   transition: all 0.1s ease-in-out;  
 }
 
-h1 {
+h1,
+h2 {
   font-family: Cuprum;
   font-weight: 700;
 }
 
-h1.site-name
-h2.site-name, {
+h1.site-name,
+h2.site-name {
   font-weight: 100;
   text-transform: uppercase;
 }
