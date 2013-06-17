@@ -38,6 +38,7 @@ h2.site-name a {
   color: #009900;
 }
 
-h1.site-name a:hover {
+h1.site-name a:hover,
+h2.site-name a:hover {
   color: #222222;
 }
