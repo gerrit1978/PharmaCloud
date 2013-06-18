@@ -9,9 +9,7 @@ body {
 
 a:link, a:visited, a:hover {
   text-decoration: none;
-}
-
-a {
+  color: #009900;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
@@ -20,17 +18,14 @@ a {
 }
 
 a:hover {
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;  
+  color: #000000;
 }
 
 h1,
 h2 {
   font-family: "BebasNeueRegular";
   font-weight: 100;
+  line-height: 1;
 }
 
 h1.site-name,
@@ -92,7 +87,7 @@ h2.block-title {
   color: white;
 }
 
-#zone-menu ul.menu li a:hover {
+#zone-menu ul.menu li a:hover, #zone-menu ul.menu li a.active {
   color: black;
   text-shadow: none;
 }
@@ -100,4 +95,32 @@ h2.block-title {
 #block-system-main {
   font-size: 1.385em;
   line-height: 1.4;
+}
+
+/** Frontpage Promo block **/
+.block-promo-homepage-block {
+  margin-bottom: 20px;
+}
+
+ul.promo-items {
+  margin: 0;
+  padding: 0;
+}
+
+ul.promo-items li.promo-item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 320px;
+  width: 960px;
+}
+
+ul.promo-items li.promo-item .promo-description {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 1.8em;
+  background: url(../img/bg_promo_description.png) repeat;
+  width: 33%;
+  text-align: right;
 }

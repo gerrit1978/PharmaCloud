@@ -4,7 +4,10 @@
     attach: function (context, settings) {
       $('.front ul.promo-items').carouFredSel({
         scroll: {
-          fx: "crossfade"
+          fx: "fade"
+        },
+        auto: {
+          timeoutDuration: 7500
         }
       });
     }
