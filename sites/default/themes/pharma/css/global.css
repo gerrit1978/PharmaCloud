@@ -3,6 +3,8 @@
 
 body {
   background: url(../img/bg_pattern.png) repeat;
+  font: normal 14px/20px Arial, Helvetica, sans-serif;
+  color: #56595e;  
 }
 
 a:link, a:visited, a:hover {
@@ -48,6 +50,17 @@ h2.site-name a:hover {
   color: #222222;
 }
 
+/** Blocks **/
+h2.block-title {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.region-sidebar-second .block {
+  padding: 1em;
+  background: white;
+}
+
 #region-branding {
   margin: 20px 0;
 }
@@ -82,4 +95,9 @@ h2.site-name a:hover {
 #zone-menu ul.menu li a:hover {
   color: black;
   text-shadow: none;
+}
+
+#block-system-main {
+  font-size: 1.385em;
+  line-height: 1.4;
 }

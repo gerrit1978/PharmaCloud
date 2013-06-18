@@ -15,6 +15,7 @@ regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
 regions[header_first] = 'Header First'
 regions[header_second] = 'Header Second'
+regions[preface] = 'Preface'
 regions[preface_first] = 'Preface First'
 regions[preface_second] = 'Preface Second'
 regions[preface_third] = 'Preface Third'
@@ -349,3 +350,6 @@ settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
 version = '1.x'
+
+scripts[] = scripts/jquery.carouFredSel-6.2.1-packed.js
+scripts[] = scripts/scripts.js
