@@ -353,3 +353,5 @@ version = '1.x'
 
 scripts[] = scripts/jquery.carouFredSel-6.2.1-packed.js
 scripts[] = scripts/scripts.js
+
+stylesheets[all][] = css/colors.css
