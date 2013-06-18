@@ -56,8 +56,9 @@ h2.block-title {
   background: white;
 }
 
-#region-branding {
+#zone-branding #region-branding {
   margin: 20px 0;
+  width: 960px;
 }
 
 /* Main Menu */
@@ -98,6 +99,11 @@ h2.block-title {
 }
 
 /** Frontpage Promo block **/
+#zone-preface #region-preface {
+  margin: 0;
+  width: 960px;
+}
+
 .block-promo-homepage-block {
   margin-bottom: 20px;
 }
@@ -126,3 +132,17 @@ ul.promo-items li.promo-item .promo-description {
 }
 
 /** Search Block **/
+#block-search-form {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+#block-search-form input.form-submit {
+  background: url(../img/bg_search_btn.png) no-repeat center center;
+  text-indent: -999em;
+  border: none;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
