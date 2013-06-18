@@ -2,7 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 body {
-  background: url(../img/bg_pattern.png) repeat;
+/*  background: url(../img/bg_pattern.png) repeat; */
   font: normal 14px/20px Arial, Helvetica, sans-serif;
   color: #56595e;  
 }

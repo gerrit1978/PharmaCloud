@@ -1,0 +1,28 @@
+/* Site background color */
+body { background-color: #ffffff; color: #ffffff; }
+ 
+/* Lists */
+ul,
+li,
+ul li.collapsed,
+ul li.expanded,
+ul li.leaf {
+ color: #ffffff;
+}
+ 
+/* Site titles */
+h1, h2 { color: #ffffff; }
+ 
+/* Main content area links */
+#main-content a:link,
+#main-content a:visited,
+#main-content a:hover,
+#main-content a:focus,
+#main-content a:active { color: #ffffff; }
+ 
+/* Main menu links */
+#site-menu ul li a { color: #000000; }
+ 
+/* Main menu active links */
+#site-menu ul li.active-trail a,
+#site-menu ul li a.active { background: #ffffff; color: #000000; }
