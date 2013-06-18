@@ -131,6 +131,10 @@ ul.promo-items li.promo-item .promo-description {
   text-align: right;
 }
 
+ul.promo-items li.promo-item .promo-description h1 {
+  text-shadow: 1px 1px 2px white;
+}
+
 /** Search Block **/
 #block-search-form {
   position: absolute;
