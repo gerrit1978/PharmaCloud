@@ -175,9 +175,17 @@ ul.promo-items li.promo-item .promo-visual {
 #block-search-form {
   position: absolute;
   top: 40px;
-  right: 0;
+  right: -26px;
 }
 /* line 157, ../sass/global.scss */
+#block-search-form input.form-text {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding-bottom: 4px;
+  padding-right: 30px;
+}
+/* line 164, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -185,14 +193,16 @@ ul.promo-items li.promo-item .promo-visual {
   width: 25px;
   height: 20px;
   cursor: pointer;
+  position: relative;
+  right: 30px;
 }
 
 /** Footer **/
-/* line 168, ../sass/global.scss */
+/* line 177, ../sass/global.scss */
 #zone-footer {
   font-size: 0.846em;
 }
-/* line 170, ../sass/global.scss */
+/* line 179, ../sass/global.scss */
 #zone-footer #region-footer-first {
   padding: 40px 0 20px;
   text-align: center;

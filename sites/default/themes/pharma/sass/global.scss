@@ -153,7 +153,14 @@ ul.promo-items li.promo-item {
 #block-search-form {
   position: absolute;
   top: 40px;
-  right: 0;
+  right: -26px;
+  input.form-text {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding-bottom: 4px;
+    padding-right: 30px;
+  }
   input.form-submit {
 	  background: url(../img/bg_search_btn.png) no-repeat center center;
 	  text-indent: -999em;
@@ -161,6 +168,8 @@ ul.promo-items li.promo-item {
 	  width: 25px;
 	  height: 20px;
 	  cursor: pointer;
+	  position: relative;
+	  right: 30px;
 	}
 }
 
