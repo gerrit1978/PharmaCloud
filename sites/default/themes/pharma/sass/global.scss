@@ -5,7 +5,7 @@
 
 body {
  background: url(../img/bg_pattern.png) repeat;
-  font: normal 14px/20px Arial, Helvetica, sans-serif;
+  font: normal 14px/20px Arial, Helvetica, sans-serif; 
   color: #56595e;  
 }
 
@@ -35,11 +35,9 @@ h2.site-name {
   font-size: 3em;
   font-weight: 100;
   text-transform: uppercase;
-}
-
-h1.site-name a,
-h2.site-name a {
-  color: $mainColor;
+  a {
+	  color: $mainColor;  
+  }
 }
 
 h1.site-name a:hover,
@@ -55,7 +53,12 @@ h2.block-title {
 
 .region-sidebar-second .block {
   padding: 1em;
-  background: white;
+  background: $mainColor;
+  color: $inverseColor;
+  h2.block-title {
+    color: $inverseColor;
+    text-shadow: 1px 1px 2px $inverseColorShadow;
+  }
 }
 
 #zone-branding #region-branding {
@@ -72,22 +75,21 @@ h2.block-title {
 #zone-menu ul.menu {
   margin: 0;
   padding: 0;
-}
+  li {
+	  margin: 0;
+	  padding: 0;
+	  float: left;
+	  margin-right: 40px;
+	  line-height: 55px;
+	  list-style: none;
+	  font-family: "BebasNeueRegular";
+	  font-size: 2em;
+	  text-shadow: 1px 1px 2px $inverseColorShadow;
+	  a {
+		  color: $inverseColor;
+		}
+	}
 
-#zone-menu ul.menu li {
-  margin: 0;
-  padding: 0;
-  float: left;
-  margin-right: 40px;
-  line-height: 55px;
-  list-style: none;
-  font-family: "BebasNeueRegular";
-  font-size: 2em;
-  text-shadow: 1px 1px 2px $inverseColorShadow;
-}
-
-#zone-menu ul.menu li a {
-  color: $inverseColor;
 }
 
 #zone-menu ul.menu li a:hover, #zone-menu ul.menu li a.active {
@@ -96,7 +98,7 @@ h2.block-title {
 }
 
 #block-system-main {
-  font-size: 1.385em;
+  font-size: 1.231em;
   line-height: 1.4;
 }
 
@@ -121,20 +123,19 @@ ul.promo-items li.promo-item {
   position: relative;
   height: 320px;
   width: 960px;
-}
+  .promo-description {
+	  position: absolute;
+	  top: 20px;
+	  right: 0;
+	  padding: 1.8em;
+	  background: url(../img/bg_promo_description.png) repeat;
+	  width: 33%;
+	  text-align: right;
+	  h1 {
+		  text-shadow: 1px 1px 2px $defaultColorShadow;
+		}
+	}
 
-ul.promo-items li.promo-item .promo-description {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  padding: 1.8em;
-  background: url(../img/bg_promo_description.png) repeat;
-  width: 33%;
-  text-align: right;
-}
-
-ul.promo-items li.promo-item .promo-description h1 {
-  text-shadow: 1px 1px 2px $defaultColorShadow;
 }
 
 /** Search Block **/
@@ -142,13 +143,21 @@ ul.promo-items li.promo-item .promo-description h1 {
   position: absolute;
   top: 40px;
   right: 0;
+  input.form-submit {
+	  background: url(../img/bg_search_btn.png) no-repeat center center;
+	  text-indent: -999em;
+	  border: none;
+	  width: 25px;
+	  height: 20px;
+	  cursor: pointer;
+	}
 }
 
-#block-search-form input.form-submit {
-  background: url(../img/bg_search_btn.png) no-repeat center center;
-  text-indent: -999em;
-  border: none;
-  width: 25px;
-  height: 20px;
-  cursor: pointer;
+/** Footer **/
+#zone-footer {
+  font-size: 0.846em;
+  #region-footer-first {
+    padding: 40px 0 20px;
+    text-align: center;
+  }
 }

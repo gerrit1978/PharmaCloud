@@ -38,52 +38,56 @@ h2.site-name {
   font-weight: 100;
   text-transform: uppercase;
 }
-
-/* line 41, ../sass/global.scss */
+/* line 38, ../sass/global.scss */
 h1.site-name a,
 h2.site-name a {
   color: #009900;
 }
 
-/* line 46, ../sass/global.scss */
+/* line 44, ../sass/global.scss */
 h1.site-name a:hover,
 h2.site-name a:hover {
   color: #222222;
 }
 
 /** Blocks **/
-/* line 51, ../sass/global.scss */
+/* line 49, ../sass/global.scss */
 h2.block-title {
   font-size: 2em;
   margin-bottom: .5em;
 }
 
-/* line 56, ../sass/global.scss */
+/* line 54, ../sass/global.scss */
 .region-sidebar-second .block {
   padding: 1em;
-  background: white;
+  background: #009900;
+  color: white;
+}
+/* line 58, ../sass/global.scss */
+.region-sidebar-second .block h2.block-title {
+  color: white;
+  text-shadow: 1px 1px 2px #222222;
 }
 
-/* line 61, ../sass/global.scss */
+/* line 64, ../sass/global.scss */
 #zone-branding #region-branding {
   margin: 20px 0;
   width: 960px;
 }
 
 /* Main Menu */
-/* line 67, ../sass/global.scss */
+/* line 70, ../sass/global.scss */
 #zone-menu-wrapper {
   background-color: #009900;
   margin-bottom: 20px;
 }
 
-/* line 72, ../sass/global.scss */
+/* line 75, ../sass/global.scss */
 #zone-menu ul.menu {
   margin: 0;
   padding: 0;
 }
-
-/* line 77, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 #zone-menu ul.menu li {
   margin: 0;
   padding: 0;
@@ -95,43 +99,42 @@ h2.block-title {
   font-size: 2em;
   text-shadow: 1px 1px 2px #222222;
 }
-
-/* line 89, ../sass/global.scss */
+/* line 88, ../sass/global.scss */
 #zone-menu ul.menu li a {
   color: white;
 }
 
-/* line 93, ../sass/global.scss */
+/* line 95, ../sass/global.scss */
 #zone-menu ul.menu li a:hover, #zone-menu ul.menu li a.active {
   color: black;
   text-shadow: none;
 }
 
-/* line 98, ../sass/global.scss */
+/* line 100, ../sass/global.scss */
 #block-system-main {
-  font-size: 1.385em;
+  font-size: 1.231em;
   line-height: 1.4;
 }
 
 /** Frontpage Promo block **/
-/* line 104, ../sass/global.scss */
+/* line 106, ../sass/global.scss */
 #zone-preface #region-preface {
   margin: 0;
   width: 960px;
 }
 
-/* line 109, ../sass/global.scss */
+/* line 111, ../sass/global.scss */
 .block-promo-homepage-block {
   margin-bottom: 20px;
 }
 
-/* line 113, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 ul.promo-items {
   margin: 0;
   padding: 0;
 }
 
-/* line 118, ../sass/global.scss */
+/* line 120, ../sass/global.scss */
 ul.promo-items li.promo-item {
   margin: 0;
   padding: 0;
@@ -139,7 +142,6 @@ ul.promo-items li.promo-item {
   height: 320px;
   width: 960px;
 }
-
 /* line 126, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description {
   position: absolute;
@@ -150,21 +152,19 @@ ul.promo-items li.promo-item .promo-description {
   width: 33%;
   text-align: right;
 }
-
-/* line 136, ../sass/global.scss */
+/* line 134, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description h1 {
   text-shadow: 1px 1px 2px white;
 }
 
 /** Search Block **/
-/* line 141, ../sass/global.scss */
+/* line 142, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   top: 40px;
   right: 0;
 }
-
-/* line 147, ../sass/global.scss */
+/* line 146, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -172,4 +172,15 @@ ul.promo-items li.promo-item .promo-description h1 {
   width: 25px;
   height: 20px;
   cursor: pointer;
+}
+
+/** Footer **/
+/* line 157, ../sass/global.scss */
+#zone-footer {
+  font-size: 0.846em;
+}
+/* line 159, ../sass/global.scss */
+#zone-footer #region-footer-first {
+  padding: 40px 0 20px;
+  text-align: center;
 }
