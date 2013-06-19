@@ -114,6 +114,8 @@ h2.block-title {
 
 .block-promo-homepage-block {
   margin-bottom: 20px;
+  height: 320px;
+  overflow: hidden;
 }
 
 ul.promo-items {
@@ -192,7 +194,22 @@ ul.team-items {
     list-style: none;
     float: left;
     margin-right: 10%;
+    margin-bottom: 30px;
     width: 45%;
+    .team-pasfoto {
+      clear: left;
+      float: left;
+      width: 140px;
+      img {
+        border: 2px solid #cacaca;
+      }
+    }
+    .team-description {
+      margin-left: 140px;
+      .team-naam {
+        font-weight: 800;
+      }
+    }
   }
   li.team-item.last {
     margin-right: 0;

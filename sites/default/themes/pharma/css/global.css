@@ -131,15 +131,17 @@ h2.block-title {
 /* line 115, ../sass/global.scss */
 .block-promo-homepage-block {
   margin-bottom: 20px;
+  height: 320px;
+  overflow: hidden;
 }
 
-/* line 119, ../sass/global.scss */
+/* line 121, ../sass/global.scss */
 ul.promo-items {
   margin: 0;
   padding: 0;
 }
 
-/* line 124, ../sass/global.scss */
+/* line 126, ../sass/global.scss */
 ul.promo-items li.promo-item {
   margin: 0;
   padding: 0;
@@ -147,7 +149,7 @@ ul.promo-items li.promo-item {
   height: 320px;
   width: 940px;
 }
-/* line 130, ../sass/global.scss */
+/* line 132, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description {
   position: absolute;
   top: 20px;
@@ -158,11 +160,11 @@ ul.promo-items li.promo-item .promo-description {
   text-align: right;
   z-index: 100;
 }
-/* line 139, ../sass/global.scss */
+/* line 141, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description h1 {
   text-shadow: 1px 1px 2px white;
 }
-/* line 143, ../sass/global.scss */
+/* line 145, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-visual {
   position: absolute;
   top: 0;
@@ -171,13 +173,13 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Search Block **/
-/* line 153, ../sass/global.scss */
+/* line 155, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   top: 40px;
   right: -26px;
 }
-/* line 157, ../sass/global.scss */
+/* line 159, ../sass/global.scss */
 #block-search-form input.form-text {
   background: none;
   border: none;
@@ -185,7 +187,7 @@ ul.promo-items li.promo-item .promo-visual {
   padding-bottom: 4px;
   padding-right: 30px;
 }
-/* line 164, ../sass/global.scss */
+/* line 166, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -198,32 +200,51 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Footer **/
-/* line 177, ../sass/global.scss */
+/* line 179, ../sass/global.scss */
 #zone-footer {
   font-size: 0.846em;
 }
-/* line 179, ../sass/global.scss */
+/* line 181, ../sass/global.scss */
 #zone-footer #region-footer-first {
   padding: 40px 0 20px;
   text-align: center;
 }
 
 /** Teamleden **/
-/* line 186, ../sass/global.scss */
+/* line 188, ../sass/global.scss */
 ul.team-items {
   margin: 0;
   padding: 0;
 }
-/* line 189, ../sass/global.scss */
+/* line 191, ../sass/global.scss */
 ul.team-items li.team-item {
   margin: 0;
   padding: 0;
   list-style: none;
   float: left;
   margin-right: 10%;
+  margin-bottom: 30px;
   width: 45%;
 }
-/* line 197, ../sass/global.scss */
+/* line 199, ../sass/global.scss */
+ul.team-items li.team-item .team-pasfoto {
+  clear: left;
+  float: left;
+  width: 140px;
+}
+/* line 203, ../sass/global.scss */
+ul.team-items li.team-item .team-pasfoto img {
+  border: 2px solid #cacaca;
+}
+/* line 207, ../sass/global.scss */
+ul.team-items li.team-item .team-description {
+  margin-left: 140px;
+}
+/* line 209, ../sass/global.scss */
+ul.team-items li.team-item .team-description .team-naam {
+  font-weight: 800;
+}
+/* line 214, ../sass/global.scss */
 ul.team-items li.team-item.last {
   margin-right: 0;
 }
