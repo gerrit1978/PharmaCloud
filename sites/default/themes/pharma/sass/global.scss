@@ -52,9 +52,14 @@ h2.block-title {
 }
 
 .region-sidebar-second .block {
-  padding: 1em;
-  background: $mainColor;
+  margin-right: -28px;
+  background: url(../img/bg_block_sidebar_right.png) no-repeat right top;
   color: $inverseColor;
+  .block-inner {
+    background: $mainColor;
+    margin-right: 28px;
+    padding: 1em;
+  }
   h2.block-title {
     color: $inverseColor;
     text-shadow: 1px 1px 2px $inverseColorShadow;
@@ -104,8 +109,7 @@ h2.block-title {
 
 /** Frontpage Promo block **/
 #zone-preface #region-preface {
-  margin: 0;
-  width: 960px;
+  width: 940px;
 }
 
 .block-promo-homepage-block {
@@ -122,7 +126,7 @@ ul.promo-items li.promo-item {
   padding: 0;
   position: relative;
   height: 320px;
-  width: 960px;
+  width: 940px;
   .promo-description {
 	  position: absolute;
 	  top: 20px;
