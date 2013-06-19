@@ -151,20 +151,28 @@ ul.promo-items li.promo-item .promo-description {
   background: url(../img/bg_promo_description.png) repeat;
   width: 33%;
   text-align: right;
+  z-index: 100;
 }
-/* line 134, ../sass/global.scss */
+/* line 135, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description h1 {
   text-shadow: 1px 1px 2px white;
 }
+/* line 139, ../sass/global.scss */
+ul.promo-items li.promo-item .promo-visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
 
 /** Search Block **/
-/* line 142, ../sass/global.scss */
+/* line 149, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   top: 40px;
   right: 0;
 }
-/* line 146, ../sass/global.scss */
+/* line 153, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -175,11 +183,11 @@ ul.promo-items li.promo-item .promo-description h1 {
 }
 
 /** Footer **/
-/* line 157, ../sass/global.scss */
+/* line 164, ../sass/global.scss */
 #zone-footer {
   font-size: 0.846em;
 }
-/* line 159, ../sass/global.scss */
+/* line 166, ../sass/global.scss */
 #zone-footer #region-footer-first {
   padding: 40px 0 20px;
   text-align: center;
