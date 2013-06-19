@@ -181,3 +181,20 @@ ul.promo-items li.promo-item {
     text-align: center;
   }
 }
+
+/** Teamleden **/
+ul.team-items {
+  margin: 0;
+  padding: 0;
+  li.team-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-right: 10%;
+    width: 45%;
+  }
+  li.team-item.last {
+    margin-right: 0;
+  }
+}

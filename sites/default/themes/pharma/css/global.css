@@ -207,3 +207,23 @@ ul.promo-items li.promo-item .promo-visual {
   padding: 40px 0 20px;
   text-align: center;
 }
+
+/** Teamleden **/
+/* line 186, ../sass/global.scss */
+ul.team-items {
+  margin: 0;
+  padding: 0;
+}
+/* line 189, ../sass/global.scss */
+ul.team-items li.team-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-right: 10%;
+  width: 45%;
+}
+/* line 197, ../sass/global.scss */
+ul.team-items li.team-item.last {
+  margin-right: 0;
+}
