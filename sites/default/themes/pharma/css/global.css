@@ -1,13 +1,18 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* line 6, ../sass/global.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial;
+}
+
+/* line 10, ../sass/global.scss */
 body {
   background: url(../img/bg_pattern.png) repeat;
   font: normal 14px/20px Arial, Helvetica, sans-serif;
   color: #56595e;
 }
 
-/* line 12, ../sass/global.scss */
+/* line 16, ../sass/global.scss */
 a:link, a:visited, a:hover {
   text-decoration: none;
   color: #009900;
@@ -18,12 +23,12 @@ a:link, a:visited, a:hover {
   transition: all 0.1s ease-in-out;
 }
 
-/* line 22, ../sass/global.scss */
+/* line 26, ../sass/global.scss */
 a:hover {
   color: #000000;
 }
 
-/* line 27, ../sass/global.scss */
+/* line 31, ../sass/global.scss */
 h1,
 h2 {
   font-family: "BebasNeueRegular";
@@ -31,69 +36,69 @@ h2 {
   line-height: 1;
 }
 
-/* line 34, ../sass/global.scss */
+/* line 38, ../sass/global.scss */
 h1.site-name,
 h2.site-name {
   font-size: 3em;
   font-weight: 100;
   text-transform: uppercase;
 }
-/* line 38, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
 h1.site-name a,
 h2.site-name a {
   color: #009900;
 }
 
-/* line 44, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 h1.site-name a:hover,
 h2.site-name a:hover {
   color: #222222;
 }
 
 /** Blocks **/
-/* line 49, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 h2.block-title {
   font-size: 2em;
   margin-bottom: .5em;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 58, ../sass/global.scss */
 .region-sidebar-second .block {
   margin-right: -28px;
   background: url(../img/bg_block_sidebar_right.png) no-repeat right top;
   color: white;
 }
-/* line 58, ../sass/global.scss */
+/* line 62, ../sass/global.scss */
 .region-sidebar-second .block .block-inner {
   background: #009900;
   margin-right: 28px;
   padding: 1em;
 }
-/* line 63, ../sass/global.scss */
+/* line 67, ../sass/global.scss */
 .region-sidebar-second .block h2.block-title {
   color: white;
   text-shadow: 1px 1px 2px #222222;
 }
 
-/* line 69, ../sass/global.scss */
+/* line 73, ../sass/global.scss */
 #zone-branding #region-branding {
   margin: 20px 0;
   width: 960px;
 }
 
 /* Main Menu */
-/* line 75, ../sass/global.scss */
+/* line 79, ../sass/global.scss */
 #zone-menu-wrapper {
   background-color: #009900;
   margin-bottom: 20px;
 }
 
-/* line 80, ../sass/global.scss */
+/* line 84, ../sass/global.scss */
 #zone-menu ul.menu {
   margin: 0;
   padding: 0;
 }
-/* line 83, ../sass/global.scss */
+/* line 87, ../sass/global.scss */
 #zone-menu ul.menu li {
   margin: 0;
   padding: 0;
@@ -105,43 +110,43 @@ h2.block-title {
   font-size: 2em;
   text-shadow: 1px 1px 2px #222222;
 }
-/* line 93, ../sass/global.scss */
+/* line 97, ../sass/global.scss */
 #zone-menu ul.menu li a {
   color: white;
 }
 
-/* line 100, ../sass/global.scss */
+/* line 104, ../sass/global.scss */
 #zone-menu ul.menu li a:hover, #zone-menu ul.menu li a.active {
   color: black;
   text-shadow: none;
 }
 
-/* line 105, ../sass/global.scss */
+/* line 109, ../sass/global.scss */
 #block-system-main {
   font-size: 1.231em;
   line-height: 1.4;
 }
 
 /** Frontpage Promo block **/
-/* line 111, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 #zone-preface #region-preface {
   width: 940px;
 }
 
-/* line 115, ../sass/global.scss */
+/* line 119, ../sass/global.scss */
 .block-promo-homepage-block {
   margin-bottom: 20px;
   height: 320px;
   overflow: hidden;
 }
 
-/* line 121, ../sass/global.scss */
+/* line 125, ../sass/global.scss */
 ul.promo-items {
   margin: 0;
   padding: 0;
 }
 
-/* line 126, ../sass/global.scss */
+/* line 130, ../sass/global.scss */
 ul.promo-items li.promo-item {
   margin: 0;
   padding: 0;
@@ -149,7 +154,7 @@ ul.promo-items li.promo-item {
   height: 320px;
   width: 940px;
 }
-/* line 132, ../sass/global.scss */
+/* line 136, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description {
   position: absolute;
   top: 20px;
@@ -160,11 +165,11 @@ ul.promo-items li.promo-item .promo-description {
   text-align: right;
   z-index: 100;
 }
-/* line 141, ../sass/global.scss */
+/* line 145, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description h1 {
   text-shadow: 1px 1px 2px white;
 }
-/* line 145, ../sass/global.scss */
+/* line 149, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-visual {
   position: absolute;
   top: 0;
@@ -173,13 +178,13 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Search Block **/
-/* line 155, ../sass/global.scss */
+/* line 159, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   top: 40px;
   right: -26px;
 }
-/* line 159, ../sass/global.scss */
+/* line 163, ../sass/global.scss */
 #block-search-form input.form-text {
   background: none;
   border: none;
@@ -187,7 +192,7 @@ ul.promo-items li.promo-item .promo-visual {
   padding-bottom: 4px;
   padding-right: 30px;
 }
-/* line 166, ../sass/global.scss */
+/* line 170, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -200,23 +205,23 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Footer **/
-/* line 179, ../sass/global.scss */
+/* line 183, ../sass/global.scss */
 #zone-footer {
   font-size: 0.846em;
 }
-/* line 181, ../sass/global.scss */
+/* line 185, ../sass/global.scss */
 #zone-footer #region-footer-first {
   padding: 40px 0 20px;
   text-align: center;
 }
 
 /** Teamleden **/
-/* line 188, ../sass/global.scss */
+/* line 192, ../sass/global.scss */
 ul.team-items {
   margin: 0;
   padding: 0;
 }
-/* line 191, ../sass/global.scss */
+/* line 195, ../sass/global.scss */
 ul.team-items li.team-item {
   margin: 0;
   padding: 0;
@@ -226,25 +231,25 @@ ul.team-items li.team-item {
   margin-bottom: 30px;
   width: 45%;
 }
-/* line 199, ../sass/global.scss */
+/* line 203, ../sass/global.scss */
 ul.team-items li.team-item .team-pasfoto {
   clear: left;
   float: left;
   width: 140px;
 }
-/* line 203, ../sass/global.scss */
+/* line 207, ../sass/global.scss */
 ul.team-items li.team-item .team-pasfoto img {
   border: 2px solid #cacaca;
 }
-/* line 207, ../sass/global.scss */
+/* line 211, ../sass/global.scss */
 ul.team-items li.team-item .team-description {
   margin-left: 140px;
 }
-/* line 209, ../sass/global.scss */
+/* line 213, ../sass/global.scss */
 ul.team-items li.team-item .team-description .team-naam {
   font-weight: 800;
 }
-/* line 214, ../sass/global.scss */
+/* line 218, ../sass/global.scss */
 ul.team-items li.team-item.last {
   margin-right: 0;
 }
