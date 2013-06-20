@@ -253,3 +253,10 @@ ul.team-items li.team-item .team-description .team-naam {
 ul.team-items li.team-item.last {
   margin-right: 0;
 }
+
+/** Contact page **/
+/* line 224, ../sass/global.scss */
+.context-contact .gmap {
+  margin-left: 20px;
+  border: 3px solid #ededed;
+}
