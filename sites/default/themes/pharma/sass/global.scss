@@ -3,6 +3,8 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+/* HTML elements */
+
 h1,h2,h3,h4,h5,h6 {
   font-family: Arial;
 }
@@ -47,6 +49,35 @@ h2.site-name {
 h1.site-name a:hover,
 h2.site-name a:hover {
   color: #222222;
+}
+
+.webform-client-form input.form-submit {
+  border: none;
+  background: $mainColor;
+  color: $inverseColor;
+  border-bottom: 3px solid $mainColorDark;
+  font-size: 1.154em;
+  text-transform: uppercase;
+  padding: 0.35em 0.5em;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    background: $mainColorDark;
+  }
+}
+
+.webform-client-form input.form-text, .webform-client-form input.form-textarea {
+  border: 1px solid $mainColorDark;
+  line-height: 25px;
+  width: 100%;
+}
+
+input.form-text {
+  height: 25px;
 }
 
 /** Blocks **/
