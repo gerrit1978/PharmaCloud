@@ -225,3 +225,15 @@ ul.team-items {
   margin-left: 20px;
   border: 3px solid #ededed;
 }
+
+/** Nieuws nodes **/
+.node-type-nieuws .submitted {
+  margin-bottom: 20px;
+}
+
+.node-type-nieuws .field-name-field-nieuws-afbeelding {
+  float: left;
+  padding-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

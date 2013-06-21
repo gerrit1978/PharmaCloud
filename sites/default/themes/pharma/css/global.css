@@ -260,3 +260,17 @@ ul.team-items li.team-item.last {
   margin-left: 20px;
   border: 3px solid #ededed;
 }
+
+/** Nieuws nodes **/
+/* line 230, ../sass/global.scss */
+.node-type-nieuws .submitted {
+  margin-bottom: 20px;
+}
+
+/* line 234, ../sass/global.scss */
+.node-type-nieuws .field-name-field-nieuws-afbeelding {
+  float: left;
+  padding-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
