@@ -1,0 +1,35 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* line 6, ../sass/global.scss */
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #666;
+  font-weight: 100;
+}
+
+/* line 12, ../sass/global.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+}
+
+/* line 17, ../sass/global.scss */
+a:link, a:visited {
+  color: #999999;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+/* line 27, ../sass/global.scss */
+a:hover {
+  color: #111111;
+}
+
+/* line 31, ../sass/global.scss */
+#block-system-main {
+  font-size: 1.154em;
+}
