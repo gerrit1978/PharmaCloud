@@ -4,8 +4,8 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
-  color: #666;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: $mainColorDark;
   font-weight: 100;
 }
 
@@ -29,5 +29,119 @@ a:hover {
 }
 
 #block-system-main {
-  font-size: 1.154em;
+  font-size: 1.308em;
+}
+
+/** Site slogan **/
+.site-name-slogan {
+  padding: 0 20px;
+}
+
+
+/** Main Menu **/
+#zone-menu {
+  margin-top: 40px;
+  margin-bottom: 40px;
+	ul.menu {
+	  margin: 0;
+	  padding: 0;
+    margin-left: 20px;
+	  li {
+	    list-style: none;
+	    float: left;
+	    margin: 0;
+	    padding: 0;
+	    margin-right: 40px;
+	    font-size: 1.231em;
+	    a {
+	      padding: 10px;
+		    &.active {
+		      background: $inverseColorActive;
+		      color: $inverseColor;
+		      border-radius: 4px;
+          box-shadow: inset -1px 1px 1px rgba(255,255,255,0.5);
+          border: 1px solid $inverseColorActive;
+		    }
+	    }
+	  }
+	}
+}
+
+
+/** Frontpage Promo block **/
+#zone-preface #region-preface {
+  width: 1180px;
+}
+
+.block-promo-homepage-block {
+  margin-bottom: 20px;
+  height: 320px;
+  overflow: hidden;
+}
+
+ul.promo-items {
+  margin: 0;
+  padding: 0;
+}
+
+ul.promo-items li.promo-item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 320px;
+  width: 1180px;
+}
+
+ul.promo-items li.promo-item .promo-description {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 1.8em;
+  background: url(../img/bg_promo_description.png) repeat;
+  width: 33%;
+  z-index: 100;
+  font-size: 1.231em;
+}
+
+ul.promo-items li.promo-item .promo-description h1 {
+  text-shadow: 1px 1px 2px white;
+}
+
+ul.promo-items li.promo-item .promo-visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/** Search Block **/
+#block-search-form {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+  right: -10px;
+  input.form-text {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding-bottom: 4px;
+    padding-right: 30px;
+    width: 250px;
+  }
+  input.form-submit {
+	  background: url(../img/bg_search_btn.png) no-repeat center center;
+	  text-indent: -999em;
+	  border: none;
+	  width: 25px;
+	  height: 20px;
+	  cursor: pointer;
+	  position: relative;
+	  right: 30px;
+	}
+}
+
+
+/** Footer **/
+.block-copyright-footer {
+  text-align: center;
 }

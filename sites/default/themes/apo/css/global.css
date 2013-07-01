@@ -2,8 +2,8 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* line 6, ../sass/global.scss */
 body {
-  font-family: "Montserrat", Arial, sans-serif;
-  color: #666;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #444444;
   font-weight: 100;
 }
 
@@ -31,5 +31,133 @@ a:hover {
 
 /* line 31, ../sass/global.scss */
 #block-system-main {
-  font-size: 1.154em;
+  font-size: 1.308em;
+}
+
+/** Site slogan **/
+/* line 36, ../sass/global.scss */
+.site-name-slogan {
+  padding: 0 20px;
+}
+
+/** Main Menu **/
+/* line 42, ../sass/global.scss */
+#zone-menu {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 45, ../sass/global.scss */
+#zone-menu ul.menu {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+/* line 49, ../sass/global.scss */
+#zone-menu ul.menu li {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+  font-size: 1.231em;
+}
+/* line 56, ../sass/global.scss */
+#zone-menu ul.menu li a {
+  padding: 10px;
+}
+/* line 58, ../sass/global.scss */
+#zone-menu ul.menu li a.active {
+  background: black;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset -1px 1px 1px rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+}
+
+/** Frontpage Promo block **/
+/* line 72, ../sass/global.scss */
+#zone-preface #region-preface {
+  width: 1180px;
+}
+
+/* line 76, ../sass/global.scss */
+.block-promo-homepage-block {
+  margin-bottom: 20px;
+  height: 320px;
+  overflow: hidden;
+}
+
+/* line 82, ../sass/global.scss */
+ul.promo-items {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/global.scss */
+ul.promo-items li.promo-item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 320px;
+  width: 1180px;
+}
+
+/* line 95, ../sass/global.scss */
+ul.promo-items li.promo-item .promo-description {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 1.8em;
+  background: url(../img/bg_promo_description.png) repeat;
+  width: 33%;
+  z-index: 100;
+  font-size: 1.231em;
+}
+
+/* line 106, ../sass/global.scss */
+ul.promo-items li.promo-item .promo-description h1 {
+  text-shadow: 1px 1px 2px white;
+}
+
+/* line 110, ../sass/global.scss */
+ul.promo-items li.promo-item .promo-visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/** Search Block **/
+/* line 118, ../sass/global.scss */
+#block-search-form {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+  right: -10px;
+}
+/* line 123, ../sass/global.scss */
+#block-search-form input.form-text {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding-bottom: 4px;
+  padding-right: 30px;
+  width: 250px;
+}
+/* line 131, ../sass/global.scss */
+#block-search-form input.form-submit {
+  background: url(../img/bg_search_btn.png) no-repeat center center;
+  text-indent: -999em;
+  border: none;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  right: 30px;
+}
+
+/** Footer **/
+/* line 145, ../sass/global.scss */
+.block-copyright-footer {
+  text-align: center;
 }
