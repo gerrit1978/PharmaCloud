@@ -9,8 +9,8 @@
   display: inline;
   float: left;
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4,
@@ -40,13 +40,13 @@
  */
 
 body {
-  min-width: 1200px;
+  min-width: 1220px;
 }
 
 .container-12 {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1220px;
 }
 
 /*
