@@ -9,6 +9,11 @@
   display: inline;
   float: left;
   position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-12 {
   margin-left: 20px;
   margin-right: 20px;
 }

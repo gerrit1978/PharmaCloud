@@ -113,38 +113,32 @@ html, body {
 }
 /* line 98, ../sass/global.scss */
 #zone-menu ul.menu li a.active {
-  /*
-  		      background: $inverseColorActive;
-  		      color: $inverseColor;
-            border: 1px solid $inverseColorActive;
-  */
   border-bottom: 3px solid black;
 }
-/* line 109, ../sass/global.scss */
+/* line 104, ../sass/global.scss */
 #zone-menu #region-menu {
   padding: 40px 0;
 }
 
 /** Frontpage Promo block **/
-/* line 116, ../sass/global.scss */
+/* line 111, ../sass/global.scss */
 #zone-preface #region-preface {
   width: 1180px;
 }
 
-/* line 120, ../sass/global.scss */
+/* line 115, ../sass/global.scss */
 .block-promo-homepage-block {
   margin-bottom: 20px;
   height: 320px;
   overflow: hidden;
 }
 
-/* line 126, ../sass/global.scss */
+/* line 121, ../sass/global.scss */
 ul.promo-items {
   margin: 0;
   padding: 0;
 }
-
-/* line 131, ../sass/global.scss */
+/* line 124, ../sass/global.scss */
 ul.promo-items li.promo-item {
   margin: 0;
   padding: 0;
@@ -152,8 +146,7 @@ ul.promo-items li.promo-item {
   height: 320px;
   width: 1180px;
 }
-
-/* line 139, ../sass/global.scss */
+/* line 130, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description {
   position: absolute;
   top: 20px;
@@ -164,13 +157,11 @@ ul.promo-items li.promo-item .promo-description {
   z-index: 100;
   font-size: 1.231em;
 }
-
-/* line 150, ../sass/global.scss */
+/* line 139, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-description h1 {
   text-shadow: 1px 1px 2px white;
 }
-
-/* line 154, ../sass/global.scss */
+/* line 143, ../sass/global.scss */
 ul.promo-items li.promo-item .promo-visual {
   position: absolute;
   top: 0;
@@ -178,15 +169,78 @@ ul.promo-items li.promo-item .promo-visual {
   z-index: 10;
 }
 
+/** Frontpage text block **/
+/* line 153, ../sass/global.scss */
+.front #region-content {
+  margin: 0;
+  width: 100%;
+}
+
+/* line 158, ../sass/global.scss */
+.front #block-system-main {
+  background: #f3f4f5;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+  padding: 40px;
+}
+
+/** Frontpage 3 blocks **/
+/* line 166, ../sass/global.scss */
+.front #region-postscript {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+/* line 172, ../sass/global.scss */
+.front ul.front-blocks {
+  margin: 0;
+  padding: 0;
+}
+/* line 175, ../sass/global.scss */
+.front ul.front-blocks li.front-block {
+  padding: 20px 0;
+}
+/* line 177, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-image {
+  margin-bottom: 10px;
+}
+/* line 179, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-image img {
+  width: 376px;
+  height: 164px;
+  border: 2px solid #f3f4f5;
+}
+/* line 185, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-title {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  font-size: 1.538em;
+  margin-bottom: 10px;
+}
+/* line 191, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-body {
+  font-size: 1.231em;
+}
+/* line 193, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-body p {
+  margin-bottom: 8px;
+}
+
+/*
+.front ul.frontblocks li.frontblock .frontblock-image {
+  display: none;
+}
+*/
 /** Search Block **/
-/* line 162, ../sass/global.scss */
+/* line 207, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   z-index: 200;
   top: 100px;
   right: -10px;
 }
-/* line 167, ../sass/global.scss */
+/* line 212, ../sass/global.scss */
 #block-search-form input.form-text {
   background: none;
   border: none;
@@ -195,7 +249,7 @@ ul.promo-items li.promo-item .promo-visual {
   padding-right: 30px;
   width: 250px;
 }
-/* line 175, ../sass/global.scss */
+/* line 220, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -208,7 +262,7 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Footer **/
-/* line 189, ../sass/global.scss */
+/* line 234, ../sass/global.scss */
 .block-copyright-footer {
   text-align: center;
 }

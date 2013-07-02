@@ -211,14 +211,57 @@ ul.promo-items li.promo-item .promo-visual {
   z-index: 10;
 }
 
-/** Search Block **/
+/** Frontpage 3 blocks **/
 /* line 190, ../sass/global.scss */
+.front #region-postscript {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+/* line 196, ../sass/global.scss */
+.front ul.front-blocks {
+  margin: 0;
+  padding: 0;
+}
+/* line 199, ../sass/global.scss */
+.front ul.front-blocks li.front-block {
+  padding-top: 20px;
+}
+/* line 201, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-image {
+  margin-bottom: 20px;
+}
+/* line 203, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-image img {
+  width: 276px;
+  height: 120px;
+  border: 2px solid #f3f4f5;
+}
+/* line 209, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-title {
+  font-family: "BebasNeueRegular";
+  text-transform: uppercase;
+  font-size: 1.538em;
+  margin-bottom: 10px;
+}
+/* line 215, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-body {
+  font-size: 1.077em;
+}
+/* line 217, ../sass/global.scss */
+.front ul.front-blocks li.front-block .frontblock-body p {
+  margin-bottom: 8px;
+}
+
+/** Search Block **/
+/* line 226, ../sass/global.scss */
 #block-search-form {
   position: absolute;
   top: 40px;
   right: -26px;
 }
-/* line 194, ../sass/global.scss */
+/* line 230, ../sass/global.scss */
 #block-search-form input.form-text {
   background: none;
   border: none;
@@ -226,7 +269,7 @@ ul.promo-items li.promo-item .promo-visual {
   padding-bottom: 4px;
   padding-right: 30px;
 }
-/* line 201, ../sass/global.scss */
+/* line 237, ../sass/global.scss */
 #block-search-form input.form-submit {
   background: url(../img/bg_search_btn.png) no-repeat center center;
   text-indent: -999em;
@@ -239,23 +282,23 @@ ul.promo-items li.promo-item .promo-visual {
 }
 
 /** Footer **/
-/* line 214, ../sass/global.scss */
+/* line 250, ../sass/global.scss */
 #zone-footer {
   font-size: 0.846em;
 }
-/* line 216, ../sass/global.scss */
+/* line 252, ../sass/global.scss */
 #zone-footer #region-footer-first {
   padding: 40px 0 20px;
   text-align: center;
 }
 
 /** Teamleden **/
-/* line 223, ../sass/global.scss */
+/* line 259, ../sass/global.scss */
 ul.team-items {
   margin: 0;
   padding: 0;
 }
-/* line 226, ../sass/global.scss */
+/* line 262, ../sass/global.scss */
 ul.team-items li.team-item {
   margin: 0;
   padding: 0;
@@ -265,43 +308,43 @@ ul.team-items li.team-item {
   margin-bottom: 30px;
   width: 45%;
 }
-/* line 234, ../sass/global.scss */
+/* line 270, ../sass/global.scss */
 ul.team-items li.team-item .team-pasfoto {
   clear: left;
   float: left;
   width: 140px;
 }
-/* line 238, ../sass/global.scss */
+/* line 274, ../sass/global.scss */
 ul.team-items li.team-item .team-pasfoto img {
   border: 2px solid #cacaca;
 }
-/* line 242, ../sass/global.scss */
+/* line 278, ../sass/global.scss */
 ul.team-items li.team-item .team-description {
   margin-left: 140px;
 }
-/* line 244, ../sass/global.scss */
+/* line 280, ../sass/global.scss */
 ul.team-items li.team-item .team-description .team-naam {
   font-weight: 800;
 }
-/* line 249, ../sass/global.scss */
+/* line 285, ../sass/global.scss */
 ul.team-items li.team-item.last {
   margin-right: 0;
 }
 
 /** Contact page **/
-/* line 255, ../sass/global.scss */
+/* line 291, ../sass/global.scss */
 .context-contact .gmap {
   margin-left: 20px;
   border: 3px solid #ededed;
 }
 
 /** Nieuws nodes **/
-/* line 261, ../sass/global.scss */
+/* line 297, ../sass/global.scss */
 .node-type-nieuws .submitted {
   margin-bottom: 20px;
 }
 
-/* line 265, ../sass/global.scss */
+/* line 301, ../sass/global.scss */
 .node-type-nieuws .field-name-field-nieuws-afbeelding {
   float: left;
   padding-top: 10px;

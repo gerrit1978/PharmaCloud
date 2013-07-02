@@ -186,6 +186,42 @@ ul.promo-items li.promo-item {
 
 }
 
+/** Frontpage 3 blocks **/
+.front #region-postscript {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.front ul.front-blocks {
+  margin: 0;
+  padding: 0;
+  li.front-block {
+    padding-top: 20px;
+    .frontblock-image {
+      margin-bottom: 20px;
+      img {
+        width: 276px;
+        height: 120px;
+        border: 2px solid #f3f4f5;
+      }
+    }
+    .frontblock-title {
+      font-family: "BebasNeueRegular";
+      text-transform: uppercase;
+      font-size: 1.538em;
+      margin-bottom: 10px;
+    }
+    .frontblock-body {
+      font-size: 1.077em;
+      p {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+
 /** Search Block **/
 #block-search-form {
   position: absolute;
