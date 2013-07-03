@@ -63,12 +63,19 @@ h2.block-title {
 
 .region-sidebar-second .block {
   margin-right: -28px;
+  margin-bottom: 20px;
   background: url(../img/bg_block_sidebar_right.png) no-repeat right top;
   color: $inverseColor;
   .block-inner {
     background: $mainColor;
     margin-right: 28px;
     padding: 1em;
+    a {
+      color: $inverseColor;
+      &:hover {
+        color: $inverseColorShadow;
+      }
+    }
   }
   h2.block-title {
     color: $inverseColor;
@@ -282,6 +289,9 @@ ul.team-items {
 
 /** Webforms **/
 .webform-client-form {
+  clear: both;
+  padding-top: 20px;
+
 	.webform-component {
 	  clear: left;
 	  label {

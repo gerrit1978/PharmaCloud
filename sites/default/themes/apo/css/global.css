@@ -261,22 +261,41 @@ ul.promo-items li.promo-item .promo-visual {
   right: 30px;
 }
 
+/** Sidebar Blocks **/
+/* line 233, ../sass/global.scss */
+.region-sidebar-second .block {
+  margin-bottom: 20px;
+}
+/* line 235, ../sass/global.scss */
+.region-sidebar-second .block h2.block-title {
+  font-size: 2em;
+}
+/* line 238, ../sass/global.scss */
+.region-sidebar-second .block .content {
+  font-size: 1.231em;
+}
+
 /** Webforms **/
-/* line 234, ../sass/global.scss */
+/* line 244, ../sass/global.scss */
+.webform-client-form {
+  clear: both;
+  padding-top: 20px;
+}
+/* line 248, ../sass/global.scss */
 .webform-client-form .webform-component {
   clear: left;
 }
-/* line 236, ../sass/global.scss */
+/* line 250, ../sass/global.scss */
 .webform-client-form .webform-component label {
   width: 30%;
   float: left;
   font-weight: 100;
 }
-/* line 241, ../sass/global.scss */
+/* line 255, ../sass/global.scss */
 .webform-client-form .webform-component .description {
   margin-left: 30%;
 }
-/* line 244, ../sass/global.scss */
+/* line 258, ../sass/global.scss */
 .webform-client-form .webform-component .form-textarea-wrapper textarea {
   width: 500px;
   padding: 2px 7px;
@@ -285,7 +304,7 @@ ul.promo-items li.promo-item .promo-visual {
   box-sizing: content-box;
   -moz-box-sizing: content-box;
 }
-/* line 252, ../sass/global.scss */
+/* line 266, ../sass/global.scss */
 .webform-client-form .webform-component .form-text {
   padding: 2px 7px;
   width: 500px;
@@ -294,7 +313,7 @@ ul.promo-items li.promo-item .promo-visual {
   line-height: 25px;
   font-size: 1.308em;
 }
-/* line 261, ../sass/global.scss */
+/* line 275, ../sass/global.scss */
 .webform-client-form .form-actions input.form-submit {
   border: none;
   background: #cacaca;
@@ -310,13 +329,13 @@ ul.promo-items li.promo-item .promo-visual {
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-/* line 275, ../sass/global.scss */
+/* line 289, ../sass/global.scss */
 .webform-client-form .form-actions input.form-submit:hover {
   background: #444444;
 }
 
 /** Footer **/
-/* line 283, ../sass/global.scss */
+/* line 297, ../sass/global.scss */
 .block-copyright-footer {
   text-align: center;
 }

@@ -229,8 +229,22 @@ ul.promo-items {
 	}
 }
 
+/** Sidebar Blocks **/
+.region-sidebar-second .block {
+  margin-bottom: 20px;
+  h2.block-title {
+    font-size: 2em;
+  }
+  .content {
+    font-size: 1.231em;
+  }
+}
+
 /** Webforms **/
 .webform-client-form {
+  clear: both;
+  padding-top: 20px;
+
 	.webform-component {
 	  clear: left;
 	  label {
