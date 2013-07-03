@@ -157,8 +157,8 @@ ul.promo-items {
 
 .front #block-system-main {
   background: #f3f4f5;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
+  border-top: 1px solid $mainColor;
+  border-bottom: 1px solid $mainColor;
   padding: 40px;
 }
 
@@ -227,6 +227,55 @@ ul.promo-items {
 	  position: relative;
 	  right: 30px;
 	}
+}
+
+/** Webforms **/
+.webform-client-form {
+	.webform-component {
+	  clear: left;
+	  label {
+	    width: 30%;
+	    float: left;
+	    font-weight: 100;
+	  }
+	  .description {
+	    margin-left: 30%;
+	  }
+	  .form-textarea-wrapper textarea {
+	    width: 500px;
+	    padding: 2px 7px;
+	    border: 1px solid $mainColor;
+	    font-size: 1.308em;
+	    box-sizing: content-box;
+	    -moz-box-sizing: content-box;
+	  }
+	  .form-text {
+	    padding: 2px 7px;
+	    width: 500px;
+	    border: 1px solid $mainColor;
+	    height: 25px;
+	    line-height: 25px;
+	    font-size: 1.308em;    
+	  }
+	}
+  .form-actions input.form-submit {
+	  border: none;
+	  background: $mainColor;
+	  color: $inverseColor;
+	  border-bottom: 3px solid $mainColorDark;
+	  font-size: 1.154em;
+	  text-transform: uppercase;
+	  padding: 0.35em 0.5em;
+	  cursor: pointer;
+	  -webkit-transition: all 0.1s ease-in-out;
+	  -moz-transition: all 0.1s ease-in-out;
+	  -o-transition: all 0.1s ease-in-out;
+	  -ms-transition: all 0.1s ease-in-out;
+	  transition: all 0.1s ease-in-out;
+	  &:hover {
+	    background: $mainColorDark;
+	  }
+  }
 }
 
 
