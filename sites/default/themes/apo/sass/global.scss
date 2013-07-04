@@ -33,6 +33,10 @@ a:hover {
   color: $linkColorHover;
 }
 
+li {
+  list-style-position: inside;
+}
+
 #block-system-main {
   font-size: 1.308em;
 }
@@ -212,25 +216,28 @@ ul.promo-items {
   position: absolute;
   z-index: 200;
   top: 100px;
-  right: -10px;
+  right: 0;
   input.form-text {
     background: none;
     border: none;
     border-bottom: 1px solid #888;
     padding-bottom: 4px;
     padding-right: 30px;
-    width: 250px;
+    width: 230px;
   }
-  input.form-submit {
-	  background: url(../img/bg_search_btn.png) no-repeat center center;
-	  text-indent: -999em;
-	  border: none;
-	  width: 25px;
-	  height: 20px;
-	  cursor: pointer;
-	  position: relative;
-	  right: 30px;
-	}
+  .form-actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+	  input.form-submit {
+		  background: url(../img/bg_search_btn.png) no-repeat center center;
+		  text-indent: -999em;
+		  border: none;
+		  width: 25px;
+		  height: 20px;
+		  cursor: pointer;
+		}
+  }
 }
 
 /** Sidebar Blocks **/
