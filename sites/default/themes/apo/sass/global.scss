@@ -112,10 +112,6 @@ html, body {
 
 
 /** Frontpage Promo block **/
-#zone-preface #region-preface {
-  width: 1180px;
-}
-
 .block-promo-homepage-block {
   margin-bottom: 20px;
   height: 320px;
@@ -130,7 +126,7 @@ ul.promo-items {
 		padding: 0;
 		position: relative;
 		height: 320px;
-		width: 1180px;
+		width: 1160px;
 		.promo-description {
 		  position: absolute;
 		  top: 20px;
@@ -167,25 +163,21 @@ ul.promo-items {
 }
 
 /** Frontpage 3 blocks **/
-.front #region-postscript {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 100%;
-}
-
 .front ul.front-blocks {
   margin: 0;
   padding: 0;
-  margin-left: 10px;
   li.front-block {
     margin: 0;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 40px;
     padding: 20px 0;
+    &.last {
+      margin-right: 0;
+    }
     .frontblock-image {
       margin-bottom: 10px;
       img {
-        width: 376px;
+        width: 356px;
         height: 155px;
         border: 2px solid #f3f4f5;
       }
