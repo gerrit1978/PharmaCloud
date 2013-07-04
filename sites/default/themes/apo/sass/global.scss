@@ -172,13 +172,17 @@ ul.promo-items {
 .front ul.front-blocks {
   margin: 0;
   padding: 0;
+  margin-left: 10px;
   li.front-block {
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
     padding: 20px 0;
     .frontblock-image {
       margin-bottom: 10px;
       img {
         width: 376px;
-        height: 164px;
+        height: 155px;
         border: 2px solid #f3f4f5;
       }
     }
@@ -239,6 +243,39 @@ ul.promo-items {
     font-size: 1.231em;
   }
 }
+
+/** Teamleden **/
+ul.team-items {
+  margin: 0;
+  padding: 0;
+  li.team-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    width: 45%;
+    .team-pasfoto {
+      clear: left;
+      float: left;
+      width: 140px;
+      img {
+        border: 2px solid #cacaca;
+      }
+    }
+    .team-description {
+      margin-left: 140px;
+      .team-naam {
+        font-weight: 800;
+      }
+    }
+  }
+  li.team-item.last {
+    margin-right: 0;
+  }
+}
+
 
 /** Webforms **/
 .webform-client-form {

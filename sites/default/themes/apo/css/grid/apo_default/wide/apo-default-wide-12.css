@@ -9,8 +9,8 @@
   display: inline;
   float: left;
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .grid-12 {
@@ -61,51 +61,51 @@ body {
  */
 
 .container-12 .grid-1 {
-  width: 80px;
+  width: 60px;
 }
 
 .container-12 .grid-2 {
-  width: 180px;
+  width: 160px;
 }
 
 .container-12 .grid-3 {
-  width: 280px;
+  width: 260px;
 }
 
 .container-12 .grid-4 {
-  width: 380px;
+  width: 360px;
 }
 
 .container-12 .grid-5 {
-  width: 480px;
+  width: 460px;
 }
 
 .container-12 .grid-6 {
-  width: 580px;
+  width: 560px;
 }
 
 .container-12 .grid-7 {
-  width: 680px;
+  width: 660px;
 }
 
 .container-12 .grid-8 {
-  width: 780px;
+  width: 760px;
 }
 
 .container-12 .grid-9 {
-  width: 880px;
+  width: 860px;
 }
 
 .container-12 .grid-10 {
-  width: 980px;
+  width: 960px;
 }
 
 .container-12 .grid-11 {
-  width: 1080px;
+  width: 1060px;
 }
 
 .container-12 .grid-12 {
-  width: 1180px;
+  width: 1160px;
 }
 
 /*
